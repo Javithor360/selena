@@ -1,0 +1,153 @@
+@font-face{
+	font-family: Poppins;
+	src: url(../Poppins-Regular.ttf);
+	font-weight: normal;
+	font-size: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+/*     box-sizing: border-box; */
+    font-family: 'Poppins';
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.menu {
+    display: block;
+    background-color: #F8485E;
+}
+
+.menu > li {
+    display: inline-block;
+}
+
+.menu > li a{
+    font-size: 23px;
+    color: #EEEEEE;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu > li a:hover {
+    background: rgba(0, 0, 0, .3);
+	transition: background .3s ease-in-out;
+}
+
+.menu > li ul li a {
+    background-color: #f36a7a;
+    color: #EEEEEE;
+    display: block;
+    font-size: 15px;
+}
+
+.menu li ul {
+    position: absolute;
+    display: block;
+    min-width: 150px;
+    display: none;
+}
+
+.menu li:hover > ul {
+    display: block;
+    z-index: 1;
+}
+
+.menu li ul li {
+    position: relative;
+}
+
+.menu li ul li ul {
+    right: -150px;
+    top: 0px;
+}
+
+/* .nav {
+    background-color: #F8485E;
+    position: sticky;
+    z-index: 100;
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+.nav ul li a {
+    font-size: 23px;
+    color: #EEEEEE;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+} */
+
+/* .nav ul li a:link,
+.nav ul li a:visited {
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background: rgba(0, 0, 0, .3);
+	transition: background .3s ease-in-out;
+} */
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 10px 0;
+}
+
+.col{
+    width: 25%;
+    padding: 0 15px;
+ }
+.col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.col ul li{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.col ul li{
+    color: #ffffff;
+    padding-left: 8px;
+}

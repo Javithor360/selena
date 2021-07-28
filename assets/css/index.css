@@ -1,0 +1,55 @@
+.bg {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/bg.jpeg);
+    background-size: cover;
+}
+
+.index {
+    padding: 100px;
+}
+
+.index h1{
+    font-size: 60px;
+    color: #eee;
+    text-align: center;
+}
+
+.index h3 {
+    font-size: 30px;
+    color: #F8485E;
+    text-align: center;
+}
+
+.index img {
+    height: 600px;
+    width: 600px;
+}
+
+#concierto {
+    height: 100%;
+    width: 500px;
+}
+
+.blog {
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.blog .text {
+    width: 1000px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.blog .text img {
+    margin-top: 30px;
+    width: 50%;
+}

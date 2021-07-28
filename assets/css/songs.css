@@ -1,0 +1,46 @@
+.bg {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/bg.jpeg);
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header h1 {
+    color: #eee;
+    font-size: 50px;
+}
+
+.header h2 {
+    color: #F8485E;
+    font-size: 30px;
+}
+
+.lyrics {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.lyrics .container {
+    width: 800px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.lyrics .container h2 {
+    color: #F8485E;
+    font-size: 40px;
+}
+
+.lyrics .container p {
+    font-size: 23px;
+}
